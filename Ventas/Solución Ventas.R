@@ -37,8 +37,8 @@ tabla_frecuencias <- cbind(fr_abs, fr_acum, fr_rlva, fr_rlva_acum)
 tb_fr <- data.frame(tabla_frecuencias)
 view(tb_fr)
 
+#b)Grafica de barras de la frecuencia absoluta obtenida en el inciso a.
+barplot(fr_abs)
+
 #c) Histograma de frecuencia acumulada obtenida en el inciso a.
 hist(fr_acum)
-
-
-#b)Grafica de barras de la frecuencia absoluta obtenida en el inciso a.
