@@ -38,7 +38,7 @@ tb_fr <- data.frame(tabla_frecuencias)
 view(tb_fr)
 
 #b)Grafica de barras de la frecuencia absoluta obtenida en el inciso a.
-barplot(fr_abs)
+barplot(fr_abs, xlab = "Paises", ylab="Ventas", main = "Diagrama de Barras")
 
 #c) Histograma de frecuencia acumulada obtenida en el inciso a.
-hist(fr_acum)
+hist(fr_acum, main="Histograma", ylab = "Frecuencia", xlab = "Frecuencia Acumulada")
